@@ -1,28 +1,48 @@
 /* styles.css */
 
+
 body {
-    background-color: rgb(179, 246, 255);
+    background-color: rgb(176, 235, 243);
+    padding: 40px 80px;
+}
+
+.main_body {
+    background: rgb(54, 63, 63);
+    padding: 40px 80px;
+    height: 1110px;
 }
 
 h1 {
     font-size: 48px;
     text-align: center;
+    color: whitesmoke;
 }
+
+.main {
+   margin: 0 auto;
+   text-align: center;
+}
+
 
 .list {
-    font-size: 24px;
+    font-size: 30px;
     color: black;
-    text-decoration: none;
+    display: inline-block;
+    text-align: left;
+    color: hotpink;
+
 }
 
-img {
-    width: 600px;
-    height: 350px;
+a {
+    text-decoration: none;
+    color: hotpink;
 }
+
 
 h3 {
     font-size: 24px;
     text-align: center;
+    color: whitesmoke;
 }
 
 .description {
@@ -32,4 +52,11 @@ h3 {
 
 .description .par{
     background-color: black;
+}
+
+img {
+    width: 600px;
+    height: 350px;
+    display: block;
+    margin: 40px auto;
 }
